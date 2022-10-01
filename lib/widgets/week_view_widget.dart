@@ -14,7 +14,7 @@ class WeekViewWidget extends StatelessWidget {
     return WeekView<Event>(
       key: state,
       width: width,
-      onEventTap: (event, date) => Navigator.of(context).push(MaterialPageRoute(builder: (context) => DetailsPage(event: event))),
+      // onEventTap: (event, date) => Navigator.of(context).push(MaterialPageRoute(builder: (context) => DetailsPage(event: event))),
     );
   }
 }
